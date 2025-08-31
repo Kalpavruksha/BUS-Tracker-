@@ -1,0 +1,15 @@
+{
+  "name": "bus-tracking-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for real-time bus tracking",
+  "main": "websocketServer.js",
+  "scripts": {
+    "start": "node websocketServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+} 

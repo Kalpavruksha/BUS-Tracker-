@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Bus Tracker",
+    "slug": "bus-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Bus Tracker to use your location to show nearby buses."
+        }
+      ]
+    ],
+    "newArchEnabled": true
+  }
+} 
