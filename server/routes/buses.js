@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Bus = require('../models/Bus');
 
+
 // Get all active buses
 router.get('/', async (req, res) => {
   try {
