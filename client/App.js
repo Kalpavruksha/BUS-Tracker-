@@ -7,6 +7,7 @@ import MapScreen from './screens/MapScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import DriverDashboard from './screens/driver/DriverDashboard';
 
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
